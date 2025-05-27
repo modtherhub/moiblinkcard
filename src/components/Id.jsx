@@ -4,13 +4,19 @@ import Profile from '/home/modther/Project/card_links/src/assets/profile.jpg'
 function Id (){
 
     return(
-         <div className='w-full h-screen flex justify-center items-center bg-amber-600 mx-auto'>
+      <>
+        <div className='w-full h-screen flex justify-center bg-black items-center mx-auto'>
         
 
-        <div className='w-full max-w-100  border-2  mx-auto rounded-xl shadow-md '>
+        <div className='w-full max-w-100 border-gray-400 border-2  mx-auto rounded-xl shadow-md '>
+        
+          
+          
 
-          {/* Navbar */ }
-         <div className='h-8 w-full bg-fuchsia-400 rounded-t-xl p-1 pl-2 flex items-center justify-between'>
+         
+            <div>
+              {/* Navbar */ }
+         <div className='h-8 w-full bg-gray-400 rounded-t-xl p-1 pl-2 flex items-center justify-between'>
             <span className='font-serif pl-4'>Contact Me</span>
 
             <div className='flex items-center gap-1 pr-6'>
@@ -38,15 +44,15 @@ function Id (){
             <div className="text-sm underline underline-offset-8 py-2">
               <h2 className="text-gray-800 mt-3">Name: John Doe</h2>
               <p className="text-gray-600 mt-3">Pseudonym: ShadowCoder</p>
-              <p className="text-gray-600 mt-3">Profession: Software Developer</p>
+              <p className="text-gray-500 mt-3">Profession: Software Developer</p>
             </div>
-            <p className="text-sm">
+            <p className="text-gray-400 text-sm">
               Check professional experience
               Explore my apps or read my blog
             </p>
           </div>
           </div>
-
+            </div>
           
           
 
@@ -54,6 +60,7 @@ function Id (){
 
         </div>
       </div>
+      </>
     )
 }
 
