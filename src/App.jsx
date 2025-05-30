@@ -11,6 +11,11 @@ function App() {
     
      <>
      <Id/>
+
+     <footer className="fixed bottom-0 left-0 w-full bg-gray-900 text-white p-4 text-center">
+    © 2025 Your Company
+  </footer>
+
      </>
     
   )
